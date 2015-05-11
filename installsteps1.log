@@ -1,0 +1,226 @@
+Script started on Mon 16 Feb 2015 02:09:32 PM UTC
+[01;32mpi@node1[00m [01;34m~ $[00m sudo iwlist wlan0 scan
+wlan0     Scan completed :
+          Cell 01 - Address: C6:27:95:36:17:30
+                    ESSID:"xfinitywifi"
+                    Protocol:IEEE 802.11bgn
+                    Mode:Master
+                    Frequency:2.412 GHz (Channel 1)
+                    Encryption key:off
+                    Bit Rates:144 Mb/s
+                    Quality=0/100  Signal level=71/100  
+          Cell 02 - Address: C4:27:95:36:17:3E
+                    ESSID:"HOME-173E"
+                    Protocol:IEEE 802.11bgn
+                    Mode:Master
+                    Frequency:2.412 GHz (Channel 1)
+                    Encryption key:on
+                    Bit Rates:144 Mb/s
+                    Extra:wpa_ie=dd1c0050f20101000050f20202000050f2040050f20201000050f2020c00
+                    IE: WPA Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (2) : CCMP TKIP
+                        Authentication Suites (1) : PSK
+                    Extra:rsn_ie=30180100000fac020200000fac04000fac020100000fac020c00
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (2) : CCMP TKIP
+                        Authentication Suites (1) : PSK
+                    IE: Unknown: DD8C0050F204104A0001101044000102103B00010310470010DF62CFBA128D7B719088FCBE4B9490111021000B546563686E69636F6C6F721023000B546563686E69636F6C6F721024000631323334353610420007303030303030311054000800060050F20400011011000D546563686E69636F6C6F724150100800022008103C0001011049000600372A000120
+                    Quality=0/100  Signal level=74/100  
+          Cell 03 - Address: B0:A7:37:E7:27:F7
+                    ESSID:""
+                    Protocol:IEEE 802.11gn
+                    Mode:Master
+                    Frequency:2.412 GHz (Channel 1)
+                    Encryption key:on
+                    Bit Rates:144 Mb/s
+                    Extra:rsn_ie=30140100000fac040100000fac040100000fac020800
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : PSK
+                    IE: Unknown: DD370050F204104A00011010440001021049000600372A0001201054000800060050F20400011011000F4449524543542D726F6B752D363939
+                    Quality=100/100  Signal level=92/100  
+          Cell 04 - Address: 38:3B:C8:8A:DA:2E
+                    ESSID:"ATT963"
+                    Protocol:IEEE 802.11bgn
+                    Mode:Master
+                    Frequency:2.437 GHz (Channel 6)
+                    Encryption key:on
+                    Bit Rates:130 Mb/s
+                    Extra:wpa_ie=dd1c0050f20101000050f20202000050f2040050f20201000050f2020c00
+                    IE: WPA Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (2) : CCMP TKIP
+                        Authentication Suites (1) : PSK
+                    Extra:rsn_ie=30180100000fac020200000fac04000fac020100000fac020c00
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (2) : CCMP TKIP
+                        Authentication Suites (1) : PSK
+                    Quality=0/100  Signal level=56/100  
+          Cell 05 - Address: 40:70:09:2E:0C:10
+                    ESSID:"HOME-0C12"
+                    Protocol:IEEE 802.11bgn
+                    Mode:Master
+                    Frequency:2.437 GHz (Channel 6)
+                    Encryption key:on
+                    Bit Rates:270 Mb/s
+                    Extra:wpa_ie=dd1a0050f20101000050f20202000050f2020050f20401000050f202
+                    IE: WPA Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (2) : TKIP CCMP
+                        Authentication Suites (1) : PSK
+                    Extra:rsn_ie=30180100000fac020200000fac02000fac040100000fac020000
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (2) : TKIP CCMP
+                        Authentication Suites (1) : PSK
+                    IE: Unknown: DD310050F204104A0001101044000102104700102880288028801880A8804070092E0C10103C0001011049000600372A000120
+                    Quality=0/100  Signal level=7/100  
+
+[01;32mpi@node1[00m [01;34m~ $[00m sudo iwlist wlan0 scan > wlist     l wirelesslist
+[01;32mpi@node1[00m [01;34m~ $[00m [Kvim i wirelesslist 
+bash: vim: command not found
+[01;32mpi@node1[00m [01;34m~ $[00m sudo apt-g          nano wirelesslist 
+[1;75r[0;10m[4l[?7h[?25h[?0c[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.2.6                                                                  File: wirelesslist                                                                                                                                            [3;1H[0;10mwlan0     Scan completed :[4;11HCell 01 - Address: C6:27:95:36:17:30[5;21HESSID:"xfinitywifi"[6;21HProtocol:IEEE 802.11bgn[7;21HMode:Master[8;21HFrequency:2.412 GHz (Channel 1)[9;21HEncryption key:off[10;21HBit Rates:144 Mb/s[11;21HQuality=36/100  Signal level=76/100[12;11HCell 02 - Address: C4:27:95:36:17:3E[13;21HESSID:"HOME-173E"[14;21HProtocol:IEEE 802.11bgn[15;21HMode:Master[16;21HFrequency:2.412 GHz (Channel 1)[17;21HEncryption key:on[18;21HBit Rates:144 Mb/s[19;21HExtra:wpa_ie=dd1c0050f20101000050f20202000050f2040050f20201000050f2020c00[20;21HIE: WPA Version 1[21;25HGroup Cipher : TKIP[22;25HPairwise Ciphers (2) : CCMP TKIP[23;25HAuthentication Suites (1) : PSK[24;21HExtra:rsn_ie=30180100000fac020200000fac04000fac020100000fac020c00[25;21HIE: IEEE 802.11i/WPA2 Version 1[26;25HGroup Cipher : TKIP[27;25HPairwise Ciphers (2) : CCMP TKIP[28;25HAuthentication Suites (1) : PSK[29;21HIE: Unknown: DD8C0050F204104A0001101044000102103B00010310470010DF62CFBA128D7B719088FCBE4B9490111021000B546563686E69636F6C6F721023000B546563686E69636F6C6F721024000631323334353610420007303030303030311054000800060050F20400$[30;21HQuality=36/100  Signal level=77/100[31;11HCell 03 - Address: B0:A7:37:E7:27:F7[32;21HESSID:""[33;21HProtocol:IEEE 802.11gn[34;21HMode:Master[35;21HFrequency:2.412 GHz (Channel 1)[36;21HEncryption key:on[37;21HBit Rates:144 Mb/s[38;21HExtra:rsn_ie=30140100000fac040100000fac040100000fac020800[39;21HIE: IEEE 802.11i/WPA2 Version 1[40;25HGroup Cipher : CCMP[41;25HPairwise Ciphers (1) : CCMP[42;25HAuthentication Suites (1) : PSK[43;21HIE: Unknown: DD370050F204104A00011010440001021049000600372A0001201054000800060050F20400011011000F4449524543542D726F6B752D363939[44;21HQuality=100/100  Signal level=92/100[45;11HCell 04 - Address: 38:3B:C8:8A:DA:2E[46;21HESSID:"ATT963"[47;21HProtocol:IEEE 802.11bgn[48;21HMode:Master[49;21HFrequency:2.437 GHz (Channel 6)[50;21HEncryption key:on[51;21HBit Rates:130 Mb/s[52;21HExtra:wpa_ie=dd1c0050f20101000050f20202000050f2040050f20201000050f2020c00[53;21HIE: WPA Version 1[54;25HGroup Cipher : TKIP[55;25HPairwise Ciphers (2) : CCMP TKIP[56;25HAuthentication Suites (1) : PSK[57;21HExtra:rsn_ie=30180100000fac020200000fac04000fac020100000fac020c00[58;21HIE: IEEE 802.11i/WPA2 Version 1[59;25HGroup Cipher : TKIP[60;25HPairwise Ciphers (2) : CCMP TKIP[61;25HAuthentication Suites (1) : PSK[62;21HQuality=0/100  Signal level=52/100[63;11HCell 05 - Address: 40:70:09:2E:0C:10[64;21HESSID:"HOME-0C12"[65;21HProtocol:IEEE 802.11bgn[66;21HMode:Master[67;21HFrequency:2.437 GHz (Channel 6)[68;21HEncryption key:on[69;21HBit Rates:270 Mb/s[70;21HExtra:wpa_ie=dd1a0050f20101000050f20202000050f2020050f20401000050f202[71;21HIE: WPA Version 1[72;25HGroup Cipher : TKIP[73;112H[0;10;7m[ Read 111 lines ][74d^G[0;10m Get Help[74;41H[0;10;7m^O[0;10m WriteOut[74;81H[0;10;7m^R[0;10m Read File[74;121H[0;10;7m^Y[0;10m Prev Page[74;161H[0;10;7m^K[0;10m Cut Text[74;201H[0;10;7m^C[0;10m Cur Pos[75d[0;10;7m^X[0;10m Exit[75;41H[0;10;7m^J[0;10m Justify[75;81H[0;10;7m^W[0;10m Where Is[75;121H[0;10;7m^V[0;10m Next Page[75;161H[0;10;7m^U[0;10m UnCut Text[75;201H[0;10;7m^T[0;10m To Spell[3d[4d[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[73d[K[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[39d[40d[41d[42d[43d[44d[45d[46d[47d[48d[49d[50d[51d[52d[53d[54d[55d[56d[57d[58d[59d[60d[61d[62d[A[A[A[A[A[A[A[A[A[A[A[A[51d[52d[53d[54d[55d[56d[57d[58d[59d[60d[61d[62d[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A [A[73;98H[0;10;7m[ Conversion of typed tabs to spaces enabled ][39;2H[0;10m[74d[J[75;240H[75;1H[01;32mpi@node1[00m [01;34m~ $[00m 
+[01;32mpi@node1[00m [01;34m~ $[00m ls
+installsteps1.log  [0m[01;34mpython_games[0m  wirelesslist
+[01;32mpi@node1[00m [01;34m~ $[00m sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+[1;75r[0;10m[4l[?7h[?25h[?0c[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.2.6                                                         File: /etc/wpa_supplicant/wpa_supplicant.conf                                                                                                                          [3;1H[0;10mctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev[4dupdate_config=1[73;113H[0;10;7m[ Read 2 lines ][74d^G[0;10m Get Help[74;41H[0;10;7m^O[0;10m WriteOut[74;81H[0;10;7m^R[0;10m Read File[74;121H[0;10;7m^Y[0;10m Prev Page[74;161H[0;10;7m^K[0;10m Cut Text[74;201H[0;10;7m^C[0;10m Cur Pos[75d[0;10;7m^X[0;10m Exit[75;41H[0;10;7m^J[0;10m Justify[75;81H[0;10;7m^W[0;10m Where Is[75;121H[0;10;7m^V[0;10m Next Page[75;161H[0;10;7m^U[0;10m UnCut Text[75;201H[0;10;7m^T[0;10m To Spell[3d[3;56H[4;16H[5d[1;231H[0;10;7mModified[6d[0;10mneotw   twork={[7d[7;9Hssid[73d[K[7;13H = "HOME-173E"[8d[8;9Hpsk=  = " "24921C9-0  0ZX 7260CB5E249211C90Z[1P7260CB5E[9d[8;32HZ7260CB5E[8;25H7260CB5E[9d[8;33H24921C90Z7260CB57[1P7260CB5E[9d[8;32H"[9d}[73d[0;10;7mFile Name to Write: /etc/wpa_supplicant/wpa_supplicant.conf                                                                                                                                                                                     [74;41H[0;10m           [74;61H[0;10;7mM-D[0;10m DOS Format[81G            [74;121H[0;10;7mM-A[0;10m Append  [74;161H           [74;181H[0;10;7mM-B[0;10m Backup File[K[75;2H[0;10;7mC[0;10m Cancel[75;41H          [75;61H[0;10;7mM-M[0;10m Mac Format[81G           [75;121H[0;10;7mM-P[0;10m Prepend[K[73;60H[1;231H[39;49m[0;10;7m        [73;111H[0;10m[1K [0;10;7m[ Wrote 7 lines ][0;10m[K[74;41H[0;10;7m^O[0;10m WriteOut[74;61H[14X[74;81H[0;10;7m^R[0;10m Read File[74;121H[0;10;7m^Y[0;10m Prev Page[74;161H[0;10;7m^K[0;10m Cut Text[74;181H[20X[74;201H[0;10;7m^C[0;10m Cur Pos[75;2H[0;10;7mX[0;10m Exit  [75;41H[0;10;7m^J[0;10m Justify[75;61H[14X[75;81H[0;10;7m^W[0;10m Where Is[75;121H[0;10;7m^V[0;10m Next Page[75;161H[0;10;7m^U[0;10m UnCut Text[75;201H[0;10;7m^T[0;10m To Spell[9d}[74d[J[75;240H[75;1H[01;32mpi@node1[00m [01;34m~ $[00m [Ksudo ifdown wln an0
+[01;32mpi@node1[00m [01;34m~ $[00m sudo ip fup wlam0  n0
+wpa_supplicant: /sbin/wpa_supplicant daemon failed to start
+run-parts: /etc/network/if-pre-up.d/wpasupplicant exited with return code 1
+Failed to connect to wpa_supplicant - wpa_ctrl_open: No such file or directory
+wpa_supplicant: /sbin/wpa_cli daemon failed to start
+run-parts: /etc/network/if-up.d/wpasupplicant exited with return code 1
+[01;32mpi@node1[00m [01;34m~ $[00m sudo ifup wlan0[2@down wlan0nano /etc/wpa_supplicant/wpa_supplicant.conf 
+[1;75r[0;10m[4l[?7h[?25h[?0c[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.2.6                                                         File: /etc/wpa_supplicant/wpa_supplicant.conf                                                                                                                          [3;1H[0;10mctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev[4dupdate_config=1[6dnetwork={[7dssid = "HOME-173E"[8;9Hpsk = "24921C907260CB5E"[9d}[73;113H[0;10;7m[ Read 7 lines ][74d^G[0;10m Get Help[74;41H[0;10;7m^O[0;10m WriteOut[74;81H[0;10;7m^R[0;10m Read File[74;121H[0;10;7m^Y[0;10m Prev Page[74;161H[0;10;7m^K[0;10m Cut Text[74;201H[0;10;7m^C[0;10m Cur Pos[75d[0;10;7m^X[0;10m Exit[75;41H[0;10;7m^J[0;10m Justify[75;81H[0;10;7m^W[0;10m Where Is[75;121H[0;10;7m^V[0;10m Next Page[75;161H[0;10;7m^U[0;10m UnCut Text[75;201H[0;10;7m^T[0;10m To Spell[3d[4d[5d[6dne[7d[7;9H[8d[74d[J[75;240H[75;1H[01;32mpi@node1[00m [01;34m~ $[00m [K
+[01;32mpi@node1[00m [01;34m~ $[00m 
+[01;32mpi@node1[00m [01;34m~ $[00m l
+bash: l: command not found
+[01;32mpi@node1[00m [01;34m~ $[00m ls
+installsteps1.log  [0m[01;34mpython_games[0m  wirelesslist
+[01;32mpi@node1[00m [01;34m~ $[00m sudo at pt- ge   get install vim
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 65%Building dependency tree... 86%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5,281 kB of archives.
+After this operation, 24.5 MB of additional disk space will be used.
+Do you want to continue [Y/n]? Y
+0% [Working]            Err http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim-runtime all 2:7.3.547-7
+  Could not resolve 'mirrordirector.raspbian.org'
+0% [Working]            Err http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim armhf 2:7.3.547-7
+  Could not resolve 'mirrordirector.raspbian.org'
+0% [Working]            Failed to fetch http://mirrordirector.raspbian.org/raspbian/pool/main/v/vim/vim-runtime_7.3.547-7_all.deb  Could not resolve 'mirrordirector.raspbian.org'
+Failed to fetch http://mirrordirector.raspbian.org/raspbian/pool/main/v/vim/vim_7.3.547-7_armhf.deb  Could not resolve 'mirrordirector.raspbian.org'
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+[01;32mpi@node1[00m [01;34m~ $[00m sudo apt-get install vimls[K[Ksudo nano /etc/wpa_supplicant/wpa_supplicant.conf ifup wlan0[K[2@down wlan0[2Pup wlan0[2@down wlan0nano /etc/wpa_supplicant/wpa_supplicant.conf ifdown wlan0[K[2Pup wlan0[2@down wlan0
+[01;32mpi@node1[00m [01;34m~ $[00m sudo ifdown wlan0apt-get install vimls[K[Ksudo nano /etc/wpa_supplicant/wpa_supplicant.conf ifup wlan0[K
+wpa_supplicant: /sbin/wpa_supplicant daemon failed to start
+run-parts: /etc/network/if-pre-up.d/wpasupplicant exited with return code 1
+Failed to connect to wpa_supplicant - wpa_ctrl_open: No such file or directory
+wpa_supplicant: /sbin/wpa_cli daemon failed to start
+run-parts: /etc/network/if-up.d/wpasupplicant exited with return code 1
+[01;32mpi@node1[00m [01;34m~ $[00m sudo ifup wlan0[2@down wlan0apt-get install vimls[K[Ksudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+[1;75r[0;10m[4l[?7h[?25h[?0c[39;49m[39;49m[0;10m[H[J[0;10;7m  GNU nano 2.2.6                                                         File: /etc/wpa_supplicant/wpa_supplicant.conf                                                                                                                          [3;1H[0;10mctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev[4dupdate_config=1[6dnetwork={[7dssid = "HOME-173E"[8;9Hpsk = "24921C907260CB5E"[9d}[73;113H[0;10;7m[ Read 7 lines ][74d^G[0;10m Get Help[74;41H[0;10;7m^O[0;10m WriteOut[74;81H[0;10;7m^R[0;10m Read File[74;121H[0;10;7m^Y[0;10m Prev Page[74;161H[0;10;7m^K[0;10m Cut Text[74;201H[0;10;7m^C[0;10m Cur Pos[75d[0;10;7m^X[0;10m Exit[75;41H[0;10;7m^J[0;10m Justify[75;81H[0;10;7m^W[0;10m Where Is[75;121H[0;10;7m^V[0;10m Next Page[75;161H[0;10;7m^U[0;10m UnCut Text[75;201H[0;10;7m^T[0;10m To Spell[3d[4d[A[4d[5d[6d[7d[8d[8;9H[Assid [1;231H[0;10;7mModified[7;13H[0;10m[1P= [1P[8d [1P[1P[73d[0;10;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                                                                                                                    [74;1H Y[0;10m Yes[K[75d[0;10;7m N[0;10m No  [75;17H[0;10;7m^C[0;10m Cancel[K[73;62H[0;10;7mFile Name to Write: /etc/wpa_supplicant/wpa_supplicant.conf [74d^G[0;10m Get Help[74;61H[0;10;7mM-D[0;10m DOS Format[74;121H[0;10;7mM-A[0;10m Append[74;181H[0;10;7mM-B[0;10m Backup File[75d[0;10;7m^C[0;10m Cancel[17G         [75;61H[0;10;7mM-M[0;10m Mac Format[75;121H[0;10;7mM-P[0;10m Prepend[73;60H[74d[39;49m[0;10m[J[1;231H[0;10;7m        [73;111H[0;10m[1K [0;10;7m[ Wrote 7 lines ][0;10m[K[75;240H[75;1H[01;32mpi@node1[00m [01;34m~ $[00m [Ksudo nano /etc/wpa_supplicant/wpa_supplicant.conf ifup wlan0[K[2@down wlan0apt-get install vim[7Pifdown wlan0[2Pup wlan0nano /etc/wpa_supplicant/wpa_supplicant.conf ifup wlan0[K[2@down wlan0
+[01;32mpi@node1[00m [01;34m~ $[00m sudo ifdown wlan0nano /etc/wpa_supplicant/wpa_supplicant.conf ifup wlan0[K
+ioctl[SIOCSIWAP]: Operation not permitted
+ioctl[SIOCSIWENCODEEXT]: Invalid argument
+ioctl[SIOCSIWENCODEEXT]: Invalid argument
+[01;32mpi@node1[00m [01;34m~ $[00m ifconfig wlam0
+wlam0: error fetching interface information: Device not found
+[01;32mpi@node1[00m [01;34m~ $[00m ifconfig wlam0  n09 
+wlan0     Link encap:Ethernet  HWaddr 80:3f:5d:f3:44:33  
+          inet addr:10.0.0.9  Bcast:10.0.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:112 errors:0 dropped:4 overruns:0 frame:0
+          TX packets:33 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:15588 (15.2 KiB)  TX bytes:4366 (4.2 KiB)
+
+[01;32mpi@node1[00m [01;34m~ $[00m sudo apt-get oin   install vim
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 65%Building dependency tree... 88%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5,281 kB of archives.
+After this operation, 24.5 MB of additional disk space will be used.
+Do you want to continue [Y/n]? Y
+0% [Working]0% [Working]            Get:1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim-runtime all 2:7.3.547-7 [4,607 kB]
+            0% [1 vim-runtime 0 B/4,607 kB 0%] [Waiting for headers]                                                        2% [1 vim-runtime 98.5 kB/4,607 kB 2%]                                      19% [1 vim-runtime 983 kB/4,607 kB 21%]                                       37% [1 vim-runtime 1,929 kB/4,607 kB 42%]57% [1 vim-runtime 3,014 kB/4,607 kB 65%]80% [1 vim-runtime 4,222 kB/4,607 kB 92%]                                         87% [Working]             Get:2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main vim armhf 2:7.3.547-7 [674 kB]
+             87% [2 vim 0 B/674 kB 0%]                         100% [Working]              Fetched 5,281 kB in 3s (1,599 kB/s)
+Selecting previously unselected package vim-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 76938 files and directories currently installed.)
+Unpacking vim-runtime (from .../vim-runtime_2%3a7.3.547-7_all.deb) ...
+Adding 'diversion of /usr/share/vim/vim73/doc/help.txt to /usr/share/vim/vim73/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim73/doc/tags to /usr/share/vim/vim73/doc/tags.vim-tiny by vim-runtime'
+Selecting previously unselected package vim.
+Unpacking vim (from .../vim_2%3a7.3.547-7_armhf.deb) ...
+Processing triggers for man-db ...
+Setting up vim-runtime (2:7.3.547-7) ...
+Processing /usr/share/vim/addons/doc
+Setting up vim (2:7.3.547-7) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+[01;32mpi@node1[00m [01;34m~ $[00m sudo addgroup p hadoop
+Adding group `hadoop' (GID 1004) ...
+Done.
+[01;32mpi@node1[00m [01;34m~ $[00m sudo adduser --ingroup hadoop hduser
+Adding user `hduser' ...
+Adding new user `hduser' (1001) with group `hadoop' ...
+Creating home directory `/home/hduser' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+Sorry, passwords do not match
+passwd: Authentication token manipulation error
+passwd: password unchanged
+Try again? [y/N] Y
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for hduser
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+
+Is the information correct? [Y/n] 
+[01;32mpi@node1[00m [01;34m~ $[00m [K
+[01;32mpi@node1[00m [01;34m~ $[00m 
+[01;32mpi@node1[00m [01;34m~ $[00m 
+[01;32mpi@node1[00m [01;34m~ $[00m 
+[01;32mpi@node1[00m [01;34m~ $[00m 
+[01;32mpi@node1[00m [01;34m~ $[00m 
+[01;32mpi@node1[00m [01;34m~ $[00m as  sudo adduser hduser sudo
+Adding user `hduser' to group `sudo' ...
+Adding user hduser to group sudo
+Done.
+[01;32mpi@node1[00m [01;34m~ $[00m cd ~    su hduser
+Password: 
+[01;32mhduser@node1[00m [01;34m/home/pi $[00m exit
+exit
+[01;32mpi@node1[00m [01;34m~ $[00m exigt  t
+Script done on Mon 11 May 2015 04:23:41 AM UTC
